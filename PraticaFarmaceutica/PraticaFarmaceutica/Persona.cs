@@ -14,7 +14,6 @@ namespace PraticaFarmaceutica
 
         public void DatosCliente()
         {
-            Console.WriteLine("Digite sus datos");
             Console.WriteLine("Nombre:");
             nombre = Console.ReadLine();
             Console.WriteLine("Genero:");
@@ -25,6 +24,7 @@ namespace PraticaFarmaceutica
 
         public void MostrarDatosCliente()
         {
+            Console.WriteLine("\nDatos del paciente");
             Console.WriteLine($"Nombre: {nombre}");
             Console.WriteLine($"Genero: {genero}");
             Console.WriteLine($"Edad: {edad}");

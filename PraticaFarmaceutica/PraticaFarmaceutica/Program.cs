@@ -11,24 +11,18 @@ namespace PraticaFarmaceutica
         static void Main(string[] args)
         {
             Persona persona = new Persona();
-
+            Console.WriteLine("---------------Bienvenido a la clinica--------------");
             while (true)
             {
-                Console.WriteLine("Bienvenido a la clinica 'Tetrabé'");
-                Console.WriteLine("Digite los datos del cliente");
+                
+                Console.WriteLine("\nDigite los datos del paciente");
                 persona.DatosCliente();
 
-                while (true)
-                {
-
-                    Enfermedad farmacos = new Enfermedad();
-
-                    farmacos.Enfermedades();
-                    farmacos.MostrarDatosEnfer();
-                }
+                Enfermedad farmacos = new Enfermedad();
+                farmacos.Enfermedades();
+                persona.MostrarDatosCliente();
+                farmacos.MostrarDatosEnfer();
             }
-
-            
 
             Console.ReadKey();
         }

@@ -20,7 +20,7 @@ namespace PraticaFarmaceutica
 
         public void Enfermedades()
         {
-            Console.WriteLine("Enfermedades");
+            Console.WriteLine("\nQue Enfermedad presenta?");
             Console.WriteLine("1-Hipertencion");
             Console.WriteLine("2-Artritis");
             Console.WriteLine("3-Covid-19");
@@ -52,7 +52,7 @@ namespace PraticaFarmaceutica
                     Console.WriteLine("\nDatos de paracetamol");
                     Console.WriteLine("nombre: ");
                     nombre = Console.ReadLine();
-                    Console.WriteLine("Unidades:");
+                    Console.WriteLine("miligramos:");
                     miligramos = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Fecha de vencimiento:");
                     fechaVence = Console.ReadLine();
@@ -62,7 +62,7 @@ namespace PraticaFarmaceutica
                     Console.WriteLine("\nDatos de Kawasaki");
                     Console.WriteLine("nombre: ");
                     nombre = Console.ReadLine();
-                    Console.WriteLine("Unidades:");
+                    Console.WriteLine("miligramos:");
                     miligramos = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Fecha de vencimiento:");
                     fechaVence = Console.ReadLine();
@@ -95,7 +95,7 @@ namespace PraticaFarmaceutica
                     Console.WriteLine("\nDatos de la Anakinra");
                     Console.WriteLine("nombre: ");
                     nombre = Console.ReadLine();
-                    Console.WriteLine("Unidades:");
+                    Console.WriteLine("miligramos:");
                     miligramos = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Fecha de vencimiento:");
                     fechaVence = Console.ReadLine();
@@ -105,7 +105,7 @@ namespace PraticaFarmaceutica
                     Console.WriteLine("\nDatos de la Rituximab");
                     Console.WriteLine("nombre: ");
                     nombre = Console.ReadLine();
-                    Console.WriteLine("Unidades:");
+                    Console.WriteLine("gramos:");
                     gramos = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Fecha de vencimiento:");
                     fechaVence = Console.ReadLine();
@@ -139,7 +139,7 @@ namespace PraticaFarmaceutica
                     Console.WriteLine("\nDatos de la Remdesivir");
                     Console.WriteLine("nombre: ");
                     nombre = Console.ReadLine();
-                    Console.WriteLine("Unidades:");
+                    Console.WriteLine("miligramos:");
                     miligramos = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Fecha de vencimiento:");
                     fechaVence = Console.ReadLine();
@@ -149,7 +149,7 @@ namespace PraticaFarmaceutica
                     Console.WriteLine("\nDatos de la Vacuna-Moderna");
                     Console.WriteLine("nombre: ");
                     nombre = Console.ReadLine();
-                    Console.WriteLine("Unidades:");
+                    Console.WriteLine("miligramos:");
                     miligramos = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Fecha de vencimiento:");
                     fechaVence = Console.ReadLine();
@@ -170,7 +170,7 @@ namespace PraticaFarmaceutica
 
                 if (opc == 1)
                 {
-                    Console.WriteLine("\nDatos de la Paxlovid");
+                    Console.WriteLine("\nDatos de la Unithroid");
                     Console.WriteLine("nombre: ");
                     nombre = Console.ReadLine();
                     Console.WriteLine("Unidades:");
@@ -180,7 +180,7 @@ namespace PraticaFarmaceutica
                 }
                 else if (opc == 2)
                 {
-                    Console.WriteLine("\nDatos de la Remdesivir");
+                    Console.WriteLine("\nDatos de la L-Thyroxin");
                     Console.WriteLine("nombre: ");
                     nombre = Console.ReadLine();
                     Console.WriteLine("Unidades:");
@@ -190,7 +190,7 @@ namespace PraticaFarmaceutica
                 }
                 else if (opc == 3)
                 {
-                    Console.WriteLine("\nDatos de la Vacuna-Moderna");
+                    Console.WriteLine("\nDatos de la Novothyrox");
                     Console.WriteLine("nombre: ");
                     nombre = Console.ReadLine();
                     Console.WriteLine("Unidades:");
